@@ -1,0 +1,42 @@
+Jul 24 12:42:25.806 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Jul 24 12:42:25.807 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 2613.
+Jul 24 12:42:26.296 HYPERVISOR: exec_cmd: hypervisor version 
+Jul 24 12:42:26.297 HYPERVISOR: exec_cmd: hypervisor uuid 
+Jul 24 12:42:26.297 HYPERVISOR: exec_cmd: hypervisor working_dir C:/Users/sajith/Documents/gns3/tcl\project-files\dynamips 
+Jul 24 12:42:26.297 GENERAL: working_dir=C:/Users/sajith/Documents/gns3/tcl\project-files\dynamips
+Jul 24 12:42:26.297 HYPERVISOR: exec_cmd: vm create R3 3 c1700 
+Jul 24 12:42:26.300 VM: VM R3 created.
+Jul 24 12:42:26.300 HYPERVISOR: exec_cmd: vm set_con_tcp_port R3 2002 
+Jul 24 12:42:26.301 HYPERVISOR: exec_cmd: c1700 get_mac_addr R3 
+Jul 24 12:42:26.301 HYPERVISOR: exec_cmd: vm slot_add_binding R3 0 16 WIC-2T 
+Jul 24 12:42:26.301 HYPERVISOR: exec_cmd: vm set_exec_area R3 64 
+Jul 24 12:42:26.302 HYPERVISOR: exec_cmd: vm set_nvram R3 128 
+Jul 24 12:42:26.302 HYPERVISOR: exec_cmd: vm set_sparse_mem R3 1 
+Jul 24 12:42:26.302 HYPERVISOR: exec_cmd: c1700 set_iomem R3 5 
+Jul 24 12:42:26.303 HYPERVISOR: exec_cmd: vm set_ram R3 160 
+Jul 24 12:42:26.303 HYPERVISOR: exec_cmd: vm set_ios R3 C:\Users\sajith\GNS3\images\IOS\c1700-adventerprisek9-mz.124-8.image 
+Jul 24 12:42:26.304 HYPERVISOR: exec_cmd: vm get_status R3 
+Jul 24 12:42:26.304 HYPERVISOR: exec_cmd: vm set_idle_pc R3 0x80618b54 
+Jul 24 12:42:26.312 HYPERVISOR: exec_cmd: vm set_config R3 configs/i3_startup-config.cfg 
+Jul 24 12:42:26.312 HYPERVISOR: exec_cmd: vm set_ghost_status R3 2 
+Jul 24 12:42:26.313 HYPERVISOR: exec_cmd: vm set_ghost_file R3 c1700-adventerprisek9-mz.124-8.image-160.ghost 
+Jul 24 12:42:43.357 HYPERVISOR: exec_cmd: nio create_udp udp-2ce46e14-5a2e-4eb0-9638-289b222ae590 10002 127.0.0.1 10003 
+Jul 24 12:42:43.372 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R3 0 0 udp-2ce46e14-5a2e-4eb0-9638-289b222ae590 
+Jul 24 12:42:43.373 HYPERVISOR: exec_cmd: vm get_status R3 
+Jul 24 12:43:01.176 HYPERVISOR: exec_cmd: vm get_status R3 
+Jul 24 12:43:01.177 HYPERVISOR: exec_cmd: vm start R3 
+Jul 24 12:43:01.240 GHOST: loaded ghost image c1700-adventerprisek9-mz.124-8.image-160.ghost (fd=11) at addr=0x56fc0000 (size=0xa000000)
+Jul 24 12:43:01.240 GHOST: loaded image c1700-adventerprisek9-mz.124-8.image-160.ghost successfully.
+Jul 24 13:02:08.640 HYPERVISOR: exec_cmd: vm extract_config R3 
+Jul 24 13:02:28.116 HYPERVISOR: exec_cmd: vm extract_config R3 
+Jul 24 13:02:36.898 HYPERVISOR: exec_cmd: vm get_status R3 
+Jul 24 13:02:36.899 HYPERVISOR: exec_cmd: vm stop R3 
+Jul 24 13:02:36.980 GHOST: unloaded ghost image c1700-adventerprisek9-mz.124-8.image-160.ghost (fd=11) at addr=0x56fc0000 (size=0xa000000)
+Jul 24 13:02:37.172 VM: VM R3 shutdown.
+Jul 24 13:02:39.041 HYPERVISOR: exec_cmd: vm get_status R3 
+Jul 24 13:02:39.043 HYPERVISOR: exec_cmd: vm extract_config R3 
+Jul 24 13:02:39.065 HYPERVISOR: exec_cmd: vm delete R3 
+Jul 24 13:02:39.065 VM: VM R3 destroyed.
+Jul 24 13:02:39.085 HYPERVISOR: exec_cmd: hypervisor stop 
+Jul 24 13:02:39.505 HYPERVISOR: Stopped.
+Jul 24 13:02:39.505 GENERAL: reset done.
