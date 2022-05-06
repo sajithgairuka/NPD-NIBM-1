@@ -1,0 +1,3 @@
+https://roboticsknowledgebase.com/wiki/networking/bluetooth-sockets/
+https://blog.kevindoran.co/bluetooth-programming-with-python-3/
+https://github.com/sajithgairuka/NPD-NIBM/tree/master/client-server
